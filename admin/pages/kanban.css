@@ -1,0 +1,84 @@
+.mainKanban {
+    flex-wrap: nowrap;
+    --bs-gutter-x: 0rem;
+    padding: 0px 5px;
+    margin: 0px 0px;
+}
+.mainCard {
+    margin: 40px 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.cardBody {
+    padding: 5px 15px;
+}
+.cardHeaderPanel {
+    background-color: rgb(17, 23, 73);
+}
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.cardServiceId {
+    margin-bottom: 0;
+}
+.headerChips {
+    display: flex;
+    gap: 15px;
+    align-items: baseline;
+}
+.cardTargetDate {
+    background: #049949;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.cardStackDetail {
+    background: #fca227;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.cardDatesDetail {
+    display: flex;
+    justify-content: space-between;
+}
+.cardLabel {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.cardLabelDetail {
+    font-weight: bold;
+}
+.CardDates {
+    display: "grid";
+}
+.cardDescription {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 0px;
+    /* border: 1px solid; */
+    height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cardChipDetail {
+    display: flex;
+    justify-content: space-between;
+}
+.cardChips {
+    display: grid;
+    row-gap: 10px;
+}
+.cardChipsDetails {
+    display: grid;
+    border: 1px solid #0000001a;
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 125px;
+    text-align: start;
+    margin: 0px 5px 0px 0px;
+}
